@@ -7,36 +7,57 @@
     <title> My Top Ten Tags & Styles</title>
   </head>
   <body>
-    <header title="I'm a Header!">
-      <h1 title="I'm an H1">My Top Ten</h1>
-      <img title="I'm an img" src="http://www.incrediblethings.com/wp-content/uploads/2012/07/cat-votes-for-himself.jpg">
-    </header>
-    <section class="section" title="I'm The HTML Section">
-      <h2 title="I'm an H2">HTML</h2>
-      <p title="I'm a p">Here are a few HTML things I like:</p>
-      <!-- Copy this Definition Div for each HTML thing you choose -->
-      <div class="definition" title="I'm a Definition Div!">
-        <h3>TERM TITLE</h3>
-        <p>Describe this term, and make an example of how its used:</p>
-        <!-- EXAMPLE CODE GOES HERE -->
-      <pre title="i'm a pre tag for code!"> < html > is the opening tag and < / html > is the closing tag.</pre>
-      <a href="#">resource link</a>
-    </div>
-  </section>
-  <section class="section" title="I'm The CSS Section">
-    <h2 title="I'm an H2">CSS Things</h2>
-    <p title="I'm a p">Here are a few CSS things I like:</p>
-    <!-- Copy this Definition Div for each CSS thing you choose -->
-    <div class="definition" title="I'm a Definition Div!">
-      <h3>TERM TITLE</h3>
-      <p>Describe this term, and make an example of how its used:</p>
-      <!-- EXAMPLE CODE GOES HERE -->
-    <pre title="i'm a pre tag for code!"> < html > is the opening tag and < / html > is the closing tag.</pre>
-    <a href="#">resource link</a>
-  </div>
-</section>
-<footer>
-  <p>Made with gusto by <a href="#">YOUR NAME HERE</a></p>
-</footer>
-</body>
+  <h2 id="title-one" class="title">Tables (Or at least a really ugly one)</h2>
+  <table>
+    <thead>
+    <tr>
+      <th colspan="4">Table Name</th>
+    </tr>
+    <tr>
+      <td colspan="2">1</td>
+      <td colspan="2">2</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+      <td>D</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td rowspan="3">data_title</td>
+      <td>data_1</td>
+      <td>data_2</td>
+      <td>data_3</td>
+    </tr>
+    <tr>
+      <td rowspan="3">data_title</td>
+      <td>data_1</td>
+      <td>data_2</td>
+      <td>data_3</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <h2 id="title-two" class="title">Embed!</h2>
+  <embed src="https://www.youtube.com/embed/kmk43_2dtn0" width="640" height="480">
+
+  <h2 id="title-three" class="title">Dialog Popup!</h2>
+  <dialog open>
+  <p>Greetings, one and all! Click OK to get rid of me!</p>
+  <form method="dialog">
+    <button id="button">OK</button>
+  </form>
+</dialog>
+
+  <h2 id="title-four" class="title">Input stuff!</h2>
+  <form action="/someAction" method="post">
+    <fieldset>
+      <legend>There is a reason why you should use this input!</legend>
+      <input type="email" name="email" placeholder="This really doesn't take any information!">
+      <button disabled id="disabled-button">Submit</button>
+    </fieldset>
+  </form>
+  </body>
 </html>

@@ -1,1 +1,51 @@
 /* to show your CSS things, you'll likely need to use this file */
+#title-one:hover {
+  transition: 2s linear, background 4s, transform 3s;
+  color: white;
+  background-color: black;
+  transform: rotate(-20deg)
+}
+
+#title-one {
+  transition: 8s linear;
+}
+
+#title-two:hover {
+  text-shadow: 24px 12px 3px gray;
+  text-transform: uppercase;
+}
+
+#title-three {
+  background-image: linear-gradient(green, red);
+  transition: 2s linear, background 4s, transform 3s;
+  transform: rotate(360deg)
+}
+
+#title-three:hover {
+  background-image: linear-gradient(green, red);
+  transition: 2s linear, background 4s, transform 3s;
+  transform: rotate3d(20, 60, -10, -45deg);
+}
+
+#button:hover {
+  background-image: linear-gradient(green, red);
+  transition: 2s linear, background 4s, transform 3s;
+  transform: skewY(30deg);
+}
+
+#title-four:hover {
+  text-align: center;
+}
+
+#disabled-button:hover {
+  color: red;
+}
+
+.title {
+  opacity: 0.5;
+  transform: skewX(20deg);
+}
+.title:hover {
+  opacity: 1;
+  transform: skewX(-20deg);
+}
